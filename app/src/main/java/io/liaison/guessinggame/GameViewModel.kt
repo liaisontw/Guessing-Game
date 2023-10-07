@@ -58,4 +58,8 @@ class GameViewModel : ViewModel() {
         message += " The word was $secretWord"
         return message
     }
+
+    fun finishGame() {
+        _gameOver.value = true
+    }
 }
