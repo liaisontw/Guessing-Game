@@ -16,11 +16,12 @@
             app:popUpTo="@id/gameFragment"
             app:popUpToInclusive="true" />
     </fragment>
+<!--    tools:layout="@layout/fragment_result"-->
     <fragment
         android:id="@+id/resultFragment"
         android:name="io.liaison.guessinggame.ResultFragment"
         android:label="fragment_result"
-        tools:layout="@layout/fragment_result" >
+        >
         <argument
             android:name="result"
             app:argType="string"
